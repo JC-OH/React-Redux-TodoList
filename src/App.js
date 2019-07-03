@@ -1,3 +1,5 @@
+// App is the root component that renders everything else.
+
 import React from 'react';
 import './App.css';
 
