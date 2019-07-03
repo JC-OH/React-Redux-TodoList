@@ -2,11 +2,16 @@
 
 import React from 'react';
 import './App.css';
+import { Footer } from './components'
+import { AddTodo, VisibleTodoList } from './containers'
 
 function App() {
   return (
-    <div className="App">
-    </div>
+      <div>
+        <AddTodo />
+        <VisibleTodoList />
+        <Footer />
+      </div>
   );
 }
 
